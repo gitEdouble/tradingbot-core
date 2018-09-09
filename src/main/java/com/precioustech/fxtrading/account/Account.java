@@ -35,6 +35,7 @@ public class Account<T> {
 	private final double netAssetValue;
 	private final long openTrades;
 	private final String currency;
+	//todo convert accountId
 	private final T accountId;
 	private final String toStr;
 	private final double amountAvailableRatio;/*The amount available to trade as a fraction of total amount*/
